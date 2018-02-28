@@ -360,9 +360,12 @@ main {
 }
 
 .snippet__thumbnail {
-    width: 100px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
     float: left;
     margin-right: 1em;
+    padding-bottom: 1em;
 }
 
 .snippet__title {
@@ -378,6 +381,10 @@ main {
 .snippet__title a:hover,
 .snippet__title a:active {
     text-decoration: underline;
+}
+
+.snippet p {
+    display: block;
 }
 
 

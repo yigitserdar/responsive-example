@@ -106,6 +106,12 @@
         display: none;
     }
     
+    .snippet__thumbnail {
+        width: 100%;
+        max-width: 549px;
+        margin: 0 auto;
+    }
+    
     footer a {
         padding-right: 0;
         margin-right: auto;
@@ -141,6 +147,10 @@
         vertical-align: text-top;
         width: 50%;
         height: auto;
+    }
+    
+    .snippet__thumbnail {
+        max-width: 135px;
     }
 }
 
